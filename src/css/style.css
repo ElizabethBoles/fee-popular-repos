@@ -3,11 +3,11 @@
     display: inline-block;
 }
 
-.gh-repos ul {
+.gh-repos {
     margin: 0;
     padding: 0;
 }
-.gh-repos li {
+.gh-repos {
     list-style: none;
     display: block;
     float: left;

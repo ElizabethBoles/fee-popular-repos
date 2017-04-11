@@ -1,0 +1,14 @@
+<section class='panel panel-default'>    <!---  bootstrap-->
+
+  <header class ='panel-heading'> <!-- bootstrap-->
+    <h2>{{repo.name}}</h2> <!-- API data name from API -->
+  </header>
+
+  <section class='panel-body'>
+    <p>Created on:{{repo.created_at  | date : format : short}}</p>
+    <p>Last modified:{{repo.updated_at | date : format : short}}</p>
+    <p>Clone url:{{repo.clone_url}}</p>
+    <p>Stargazers_count:{{repo.stargazers_count}}</p>
+  </section>
+
+</section>
